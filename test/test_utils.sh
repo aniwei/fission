@@ -505,6 +505,7 @@ run_all_tests() {
     export GO_RUNTIME_IMAGE=gcr.io/$GKE_PROJECT_NAME/go-env:${imageTag}
     export GO_BUILDER_IMAGE=gcr.io/$GKE_PROJECT_NAME/go-env-builder:${imageTag}
     export JVM_RUNTIME_IMAGE=gcr.io/$GKE_PROJECT_NAME/jvm-env:${imageTag}
+    export JVM_JERSEY_RUNTIME_IMAGE=gcr.io/$GKE_PROJECT_NAME/jvm-jersey-env:${imageTag}
     export JVM_BUILDER_IMAGE=gcr.io/$GKE_PROJECT_NAME/jvm-env-builder:${imageTag}
     export TS_RUNTIME_IMAGE=gcr.io/$GKE_PROJECT_NAME/tensorflow-serving-env:${imageTag}
 
